@@ -24129,7 +24129,7 @@ var Wrapper = function Wrapper(_a) {
   React.useEffect(function () {
     var emoji = user.name === 'Adam' ? '🐙' : '🤯';
     var counter = user.name === 'Adam' ? count : count2;
-    document.title = emoji + " " + user.name + " " + counter + " times";
+    document.title = emoji + " " + user.name + " clix " + counter + " times";
   }, // Subscribe to state changes
   // Only run this effect if the following objects change:
   [user, count, count2]); // The basic TODO list thing..
@@ -24165,13 +24165,37 @@ var Wrapper = function Wrapper(_a) {
 
   return React.createElement(React.Fragment, null, React.createElement(TestElement, null, React.createElement("p", null, "\u25BA\u25BA Adam clicked ", count, " times"), React.createElement("button", {
     onClick: function onClick() {
-      return setCount(count + 1);
+      return setCount(function (prevCount) {
+        return prevCount - 1;
+      });
     }
-  }, "Increment"), React.createElement("p", null, "\u25BA\u25BA Homer clicked ", count2, " times"), React.createElement("button", {
+  }, "-"), React.createElement("button", {
     onClick: function onClick() {
-      return setCount2(count2 + 1);
+      return setCount(0);
     }
-  }, "Increment")), React.createElement(TestElement, null, React.createElement("p", null, "Logged in as ", user.name, " - age: ", user.age), React.createElement("p", null, "Notice the document.title change :p"), React.createElement("button", {
+  }, "Reset"), React.createElement("button", {
+    onClick: function onClick() {
+      return setCount(function (prevCount) {
+        return prevCount + 1;
+      });
+    }
+  }, "+"), React.createElement("p", null, "\u25BA\u25BA Homer clicked ", count2, " times"), React.createElement("button", {
+    onClick: function onClick() {
+      return setCount2(function (prevCount) {
+        return prevCount - 1;
+      });
+    }
+  }, "-"), React.createElement("button", {
+    onClick: function onClick() {
+      return setCount2(0);
+    }
+  }, "Reset"), React.createElement("button", {
+    onClick: function onClick() {
+      return setCount2(function (prevCount) {
+        return prevCount + 1;
+      });
+    }
+  }, "+")), React.createElement(TestElement, null, React.createElement("p", null, "Logged in as ", user.name, " - age: ", user.age), React.createElement("p", null, "Notice the document.title change :p"), React.createElement("button", {
     onClick: changeUser
   }, "Change user")), React.createElement(TestElement, null, React.createElement("div", null, React.createElement("h3", null, "Add task"), React.createElement("p", null, "Press 'enter' to create a task"), React.createElement("input", {
     type: "text",

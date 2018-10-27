@@ -26,7 +26,7 @@ const Wrapper: React.SFC = ({props}) => {
     React.useEffect(() => {
             const emoji = (user.name === 'Adam') ? '🐙' : '🤯';
             const counter = (user.name === 'Adam') ? count : count2;
-            document.title = `${emoji} ${user.name} ${counter} times`;
+            document.title = `${emoji} ${user.name} clix ${counter} times`;
         },
         // Subscribe to state changes
         // Only run this effect if the following objects change:
@@ -61,9 +61,14 @@ const Wrapper: React.SFC = ({props}) => {
         <React.Fragment>
             <TestElement>
                 <p>►► Adam clicked {count} times</p>
-                <button onClick={() => setCount(count + 1)}>Increment</button>
+                <button onClick={() => setCount(prevCount => prevCount - 1)}>-</button>
+                <button onClick={() => setCount(0)}>Reset</button>
+                <button onClick={() => setCount(prevCount => prevCount + 1)}>+</button>
+
                 <p>►► Homer clicked {count2} times</p>
-                <button onClick={() => setCount2(count2 + 1)}>Increment</button>
+                <button onClick={() => setCount2(prevCount => prevCount - 1)}>-</button>
+                <button onClick={() => setCount2(0)}>Reset</button>
+                <button onClick={() => setCount2(prevCount => prevCount + 1)}>+</button>
             </TestElement>
 
             <TestElement>

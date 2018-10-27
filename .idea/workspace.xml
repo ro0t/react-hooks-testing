@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="079cb854-04c8-4381-a1e1-c016f4883c09" name="Default Changelist" comment="" />
+    <list default="true" id="079cb854-04c8-4381-a1e1-c016f4883c09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/3e/2086450ebbf78a9a7564424a4ea73b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/3e/2086450ebbf78a9a7564424a4ea73b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.88ad3cd0.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bootstrap.88ad3cd0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.88ad3cd0.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bootstrap.88ad3cd0.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Wrapper.tsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
           <entry key="jsx" value="40" />
           <entry key="scss" value="255" />
           <entry key="ts" value="188" />
-          <entry key="tsx" value="3722" />
+          <entry key="tsx" value="3792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -63,7 +68,7 @@
           <entry key="JavaScript" value="538" />
           <entry key="SCSS" value="255" />
           <entry key="TypeScript" value="188" />
-          <entry key="TypeScript JSX" value="3722" />
+          <entry key="TypeScript JSX" value="3792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -78,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Wrapper.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="85" column="57" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+            <state relative-caret-position="210">
+              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -92,6 +97,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -149,6 +157,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -164,17 +173,6 @@
               <item name="react-hooks-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-hooks-test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-hooks-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -184,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540646694614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540646993049" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -222,12 +220,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540636987326</updated>
       <workItem from="1540636988546" duration="1198000" />
-      <workItem from="1540638657501" duration="4818000" />
+      <workItem from="1540638657501" duration="5057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6016000" />
+    <option name="totallyTimeSpent" value="6255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -314,8 +312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Wrapper.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="85" column="57" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+        <state relative-caret-position="210">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
         </state>
       </provider>
     </entry>
