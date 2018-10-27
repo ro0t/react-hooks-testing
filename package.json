@@ -1,0 +1,20 @@
+{
+  "name": "react-hooks-test",
+  "version": "1.0.0",
+  "description": "Testing out the new React Hooks",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --no-autoinstall"
+  },
+  "author": "Adam N. Viðarsson",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-hot-loader": "^4.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.14.3",
+    "typescript": "^3.1.3"
+  }
+}
